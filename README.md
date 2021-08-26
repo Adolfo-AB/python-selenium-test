@@ -32,7 +32,7 @@ However, a more extensive testing of this page should include more tests:
 - Execute automated tests with the different browsers.
 - Ensure that authentication security works and there is no way to bypass it.
 
-Other improvements could include exception management, logging
+Other improvements could include exception management and loggers.
 
 # Running the tests
 To run the tests, clone the repository, open cmd inside the sysdig folder and execute the following command: python -m pytest
