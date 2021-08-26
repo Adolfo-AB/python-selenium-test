@@ -3,7 +3,6 @@ Tests to verify that sysdig homepage/login page works as expected.
 """
 from pages.password_recovery import SysdigPasswordRecoveryPage
 from pages.login import SysdigLoginPage
-import time
 
 # Scenario 1: Verify that all the elements of the page are present.
 # This test case could also be split into different scenarios,
@@ -64,7 +63,6 @@ def test_login_incorrect_user(browser):
     login_page.click_login_button()
 
     # Then an error message appears stating that the credentials are not valid
-    time.sleep(5)
     login_page.find_invalid_credentials_error()
 
 
@@ -81,5 +79,4 @@ def test_forgot_password_redirect(browser):
     login_page.click_forgot_password()
 
     # Then the user is redirected to the password recovery page
-    time.sleep(5)
     assert pwd_recovery_page.URL == browser.current_url

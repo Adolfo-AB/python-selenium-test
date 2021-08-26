@@ -23,6 +23,7 @@ For this exercise, limited to ~2h, I've developed 3 tests:
 - A test that verifies that when the user clicks on the "Forgot your password?" button he is redirected to the password recovery page.
 
 However, a more extensive testing of this page should include more tests:
+- Verify that when accessing the homepage ('https://app.sysdigcloud.com/') the user is redirected to the login page automatically.
 - Verify that a user with valid credentials can log in successfuly.
 - Verify that the email and password cannot have invalid characters or exceed the maximum number of characters.
 - Verify that the third-party log in buttons work.
@@ -31,5 +32,9 @@ However, a more extensive testing of this page should include more tests:
 - Execute automated tests with the different browsers.
 - Ensure that authentication security works and there is no way to bypass it.
 
+Other improvements could include exception management, logging
+
+# Running the tests
+To run the tests, clone the repository, open cmd inside the sysdig folder and execute the following command: python -m pytest
 
 
