@@ -1,7 +1,3 @@
-# Sysdig Technical Interview (Adolfo Aguirrezabal)
-This project has the code related to sysdig technical interview regarding the Software Development Engineer in Test position.
-It uses Python's Selenium framework to test different aspects of sysdig homepage/login page.
-
 # Setup Requierements
 - Python 3 (I used Python 3.9.6)
 - Pytest library (pip install pytest)
