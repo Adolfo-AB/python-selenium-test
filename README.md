@@ -1,5 +1,5 @@
 # Setup Requierements
-- Python 3 (I used Python 3.9.6)
+- Python 3
 - Pytest library (pip install pytest)
 - Selenium library (pip install selenium)
 - Latest Chrome version and its respective webdriver downloaded and added to the Path environment variable
